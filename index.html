@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/all.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css">
+
+    <title>Cuponsito</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="titles-container">
+        <h1>Cuponsito</h1>
+        <h2>¡El precio final esta en Cuponsito!</h2>
+        <div class="search">
+          <div class="search-icon"><span class="fas fa-search"></span></div>
+          <input type="text" placeholder="¿Qué estás buscando?" />
+        </div>
+      </div>
+    </header>
+    <section class="offers" id="offers">
+      <div class="mini-titles">
+        <p class="red-text">Ofertas populares</p>
+        <p class="grey-text">Nuevas ofertas</p>
+      </div>
+    
+      </div>
+      <div class="main-offers">
+        <div class="airbnb">
+          <div class="logo-airbnb">
+            <img src="./img/airbnb.png" alt="" />
+          </div>
+          <!-- <div class="text-airbnb"></div> -->
+          <div class="text">
+            <p class="text-off">
+              ¡Obtén 10$ de descuento en tu primer aventura en Airbnb!
+            </p>
+          </div>
+
+          <div class="button-green"><button>Ver el cupón</button></div>
+        </div>
+
+        <div class="airbnb">
+          <div class="logo-airbnb">
+            <img src="/img/mercadolibre.png" alt="" />
+          </div>
+          <!-- <div class="text-airbnb"></div> -->
+          <div class="text">
+            <p class="text-off">
+              ¡Obtén 800 pesos de descuento en tu primer compra de MercadoLibre!
+            </p>
+          </div>
+
+          <div class="button-green"><button>Ver el cupón</button></div>
+        </div>
+        <div class="airbnb">
+          <div class="logo-airbnb">
+            <img src="/img/despegar.png" alt="" />
+          </div>
+          <!-- <div class="text-airbnb"></div> -->
+          <div class="text">
+            <p class="text-off">
+              ¡Obtén 40USD de descuento en tu primer vuelo en Despegar!
+            </p>
+          </div>
+
+          <div class="button-green"><button>Ver el cupón</button></div>
+        </div>
+        <div class="airbnb">
+          <div class="logo-airbnb">
+            <img src="/img/pedidosya.png" alt="" />
+          </div>
+          <!-- <div class="text-airbnb"></div> -->
+          <div class="text">
+            <p class="text-off">
+              ¡Obtén hasta 400 pesos de descuento en tu primera compra en PedidosYa!
+            </p>
+          </div>
+
+          <div class="button-green"><button>Ver el cupón</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section" id="register">
+      <div class="form-main">
+        <h4 class="register-title">¡Registrate ahora para obtener más descuentos!</h4>
+        <form action="" method="get">
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" name="fname" class="h" required value="">
+          <label for="lname">Apellido</label>
+          <input type="text" id="lname" name="lname" class="h" required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" class="h" required>
+          <label for="city">Ciudad</label>
+          <input type="text" id="city" name="city" class="h" required>
+          <input type="submit" value="Registrarme" id="submit-btn">
+        </form>
+      </div>
+
+    </section>
+    <div class="main-container"></div>
+
+    <section class="display-none" id="hover-all">
+      <div class="confirm">
+        <p id="reciver"></p>
+        <button class="btn-return" id="refresh">Volver</button>
+      </div>
+      
+    </section>
+
+    <section id="best-prices"class="best-prices">
+      <div class="price-container">
+        <h4>¡Obtén los mejores precios en más de 1000 tiendas!</h4>
+        <div class="logo-prices">
+          <img src="./img/walmart-logo.png" alt="">
+          <img src="./img/amazon-logo.png" alt="">
+          <img src="./img/ebay-logo.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-main" id="footer-main">
+        <h5>Cuponsito</h5>
+
+        <div class="footer-text">
+          <div class="first-footer-text">
+            <ul>
+              <li>Hecho por alumnos de tddm2.</li>
+              <li>Cuponsito &#169; 2021.</li>
+              <li>Todos los derechos reservados.</li>
+            </ul>
+          </div>
+  
+          <div class="second-footer-text">
+            <ul>
+              <li>Terminos y Condiciones.</li>
+              <li>Política de privacidad</li>
+            </ul>
+          </div>
+        </div>
+  
+    
+        
+      </div>
+    </footer>
+
+
+
+  </body>
+  <script src="./js/index.js"></script>
+</html>

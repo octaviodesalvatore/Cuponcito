@@ -1,0 +1,69 @@
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .titles-container h1 {
+    font-size: 1.8rem;
+  }
+  .titles-container h2 {
+    font-size: 32px;
+    width: 340px;
+    text-align: center;
+    color: #4c503d;
+  }
+
+  .search {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  .airbnb {
+    margin: 20px;
+    height: 250px;
+    width: 320px;
+  }
+  .button-green {
+    width: 230px;
+    margin: 0 auto;
+  }
+  .offers {
+    padding: 30px 0;
+  }
+  .mini-titles {
+    display: flex;
+    min-width: unset;
+    margin: 0 auto;
+  }
+  .h {
+    min-width: 296px;
+  }
+  .register-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .logo-prices {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .price-container h4 {
+    font-size: 28px;
+    max-width: 340px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .footer-main {
+    padding: 15px;
+  }
+  .confirm {
+    overflow: hidden;
+  }
+  #reciver {
+    font-size: 22px;
+    width: 330px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
